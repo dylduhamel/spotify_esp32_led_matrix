@@ -4,7 +4,6 @@
 This program is designed to interface with the Spotify API to fetch song information and display it on a 64x64 pixel LED matrix using an ESP32-Trinity board. It's compatible with ESP32 microcontrollers and most LED matrix boards, offering a unique way to visualize your Spotify music experience.
 
 ## Project Showcase
- ![musicimage](https://github.com/dylduhamel/spotify_esp32_led_matrix/assets/70403658/affa1b77-2eab-411c-8dfa-11e0c8e764c9)
  <img src="https://github.com/dylduhamel/spotify_esp32_led_matrix/assets/70403658/affa1b77-2eab-411c-8dfa-11e0c8e764c9" alt="Project Image" width="50%" height="50%">
 
 ## Spotify Account Setup
