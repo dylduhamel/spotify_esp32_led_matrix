@@ -5,6 +5,7 @@ This program is designed to interface with the Spotify API to fetch song informa
 
 ## Project Showcase
  ![musicimage](https://github.com/dylduhamel/spotify_esp32_led_matrix/assets/70403658/affa1b77-2eab-411c-8dfa-11e0c8e764c9)
+ <img src="https://github.com/dylduhamel/spotify_esp32_led_matrix/assets/70403658/affa1b77-2eab-411c-8dfa-11e0c8e764c9" alt="Project Image" width="50%" height="50%">
 
 ## Spotify Account Setup
 To use this program, you need to set up a Spotify Developer account and create an application. Follow these steps:
