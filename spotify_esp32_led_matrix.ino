@@ -1,8 +1,7 @@
 /*******************************************************************
-    Displays Album Art on 64x64 pixel LED matrix
+    Displays Spotify Album Art on 64x64 pixel LED matrix
   
     NOTE: You need to get a Refresh token to use this example
-    Use the getRefreshToken example to get it.
 
     Thank you to https://github.com/witnessmenow for the incredible ESP32-Trinity development
 
@@ -56,11 +55,11 @@ const int panel_chain = 1;  // Total number of panels chained one to another
 //------- Other Config - Replace the following! ------
 // -------------------------------------
 
-char ssid[] = "network ID";           // your network SSID (name)
-char password[] = "passwd";  // your network password
+char ssid[] = "Dylan";           // your network SSID (name)
+char password[] = "Buttercup1";  // your network password
 
-char clientId[] = "client";      // Your client ID of your spotify APP
-char clientSecret[] = "client_secret";  // Your client Secret of your spotify APP (Do Not share this!)
+char clientId[] = "830ffbdf3ebf4f709995d32dc229d64d";      // Your client ID of your spotify APP
+char clientSecret[] = "429d5eb6c04040d998f3a72ce24f7588";  // Your client Secret of your spotify APP (Do Not share this!)
 
 // Country code, including this is advisable
 #define SPOTIFY_MARKET "US"
@@ -134,6 +133,9 @@ void setup() {
   Serial.begin(115200);
 
   displaySetup();
+
+  // Rotate diaplay (0, 1, 2, 3)
+  dma_display->setRotation(2);
 
   // Clear screen
   dma_display->fillScreen(dma_display->color565(0, 0, 0));
