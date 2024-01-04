@@ -58,8 +58,8 @@ const int panel_chain = 1;  // Total number of panels chained one to another
 char ssid[] = "UNAME";           // your network SSID (name)
 char password[] = "PASSWD";  // your network password
 
-char clientId[] = "830ffbghhief4f709995d32dc229d64d";      // Your client ID of your spotify APP
-char clientSecret[] = "429d235ku04040d998f3a72ce24f7588";  // Your client Secret of your spotify APP (Do Not share this!)
+char clientId[] = "Null";      // Your client ID of your spotify APP
+char clientSecret[] = "Null";  // Your client Secret of your spotify APP (Do Not share this!)
 
 // Country code, including this is advisable
 #define SPOTIFY_MARKET "US"
