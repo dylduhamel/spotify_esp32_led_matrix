@@ -9,7 +9,7 @@ This program is designed to interface with the Spotify API to fetch song informa
 ## Spotify Account Setup
 To use this program, you need to set up a Spotify Developer account and create an application. Follow these steps:
 
-1. Sign into the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
+1. Sign in to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
 2. Create a new application (name it as you prefer).
 3. Note down the "client ID" and "client secret" from your application page.
 
