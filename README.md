@@ -18,4 +18,3 @@ Spotify's Authentication flow requires a webserver to complete, but it's only ne
 
 ## ESP32-Trinity & Microcontroller libraries
 Thank you to [Brian Lough](https://github.com/witnessmenow) for all of the incredible work with ESP32 Libraries.
-
